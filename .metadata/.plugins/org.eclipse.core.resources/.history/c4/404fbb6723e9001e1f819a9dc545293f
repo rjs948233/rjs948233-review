@@ -1,0 +1,25 @@
+package whileTest;
+
+public class WhileTest02 {
+
+	public static void main(String[] args) {
+		// 1부터 100까지 짝수의 합 출력
+		//로직구성
+		
+		//1)반복문 사용 첨자 i선언
+		//2)while문사용
+		//3)i를 출력하면 1씩증가 시킨다
+
+		int num=0,sum=0;
+		while(num <= 100) {
+			num++;
+//			System.out.println(num);
+			if(num % 2==0) {
+				sum=sum+num;
+				System.out.println(num+"-"+sum);
+			}
+//			System.out.println(num+""+sum);
+		}
+	}
+
+}

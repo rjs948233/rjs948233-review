@@ -1,0 +1,42 @@
+package student;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		//컬렉션 프레임워크 이용(점수 저장)
+		int count=0,total=0,score,studentNum,maxScore,minScore;
+		double avg=0.0;
+		
+		//ArrayList를이용
+		HashMap<String, Integer> menu = new HashMap<>();
+		
+		//스캐너를 이용 값을 입력받아서 ArrayList에 저장한다
+		Scanner sc=new Scanner(System.in);
+		System.out.print("학생수를 입력: ");
+		studentNum = sc.nextInt();
+		//학생수만
+		while(studentNum < count ) {
+			count++;
+			score = sc.nextInt();
+			
+		System.out.print("점수를 입력: ");
+		score=sc.nextInt();
+		
+		ArrayList al = new ArrayList();
+				//1. 사용자로부터 학생 수와 학생 점수 입력받기
+				//2. 입력받은 점수를 이용해서 평균점수 계산하기
+				//3. 입력받은 점수 중 최고점수 계산하기
+				//4. 계산된 평균점수와 최고점수 출력하기
+				
+				
+			}
+		}
+
+
+	}
+
+}

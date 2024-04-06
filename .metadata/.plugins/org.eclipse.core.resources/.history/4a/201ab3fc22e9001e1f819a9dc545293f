@@ -1,0 +1,22 @@
+package whileTest;
+
+import java.util.Scanner;
+
+public class WhileTest01 {
+	public static void main(String[] args) {
+	//안녕하세요 000님 환영합니다 10번 출력
+	//while 문사용
+	//변수 I 초기값을 1로주고 WHILE문을 i증가시키며 10번수행
+	Scanner sc=new Scanner(System.in);
+	String name ="";
+	int i = 1;
+	while(i<=10) {
+		System.out.println("이름을입력하세요:");
+		name=sc.nextLine();
+		System.out.println(	"안녕하세요 "+name+"님 환영합니다");
+		i++;
+	}
+	
+	}
+
+}

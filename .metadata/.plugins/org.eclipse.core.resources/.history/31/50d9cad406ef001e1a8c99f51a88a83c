@@ -1,0 +1,13 @@
+package r12;
+
+public class Review {
+	public void review(Vehicle vehicle,int speed) {
+		Review r = new Review();
+		r.review(Car, 10);
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package method;
+
+public class MethodTest03 {
+
+	int addTen(int num) {
+		int result = num+10;
+		return result;
+	}
+	public static void main(String[] args) {
+		MethodTest03 mt=new MethodTest03();
+		int res=mt.addTen(10);
+		System.out.println(res);
+
+
+	}
+}
+

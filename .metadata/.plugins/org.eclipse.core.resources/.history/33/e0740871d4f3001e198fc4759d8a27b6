@@ -1,0 +1,27 @@
+package list;
+
+import java.util.ArrayList;
+
+public class ArrayList4 {
+//	 static ArrayList<Integer> list=new ArrayList<Integer>();
+
+	
+	public static void main(String[] args) {
+	   ArrayList<Integer> list=new ArrayList<Integer>();	 
+				
+       	for(int i=0;i<20;i++) {
+       			list.add(i*10);
+       	}
+       	
+        int index=0;
+       	while(!list.isEmpty() && index <= 20) {
+       	  index += 1; 
+            System.out.println(index);
+            System.out.println(list.get(index));
+              
+            list.remove(index-1);
+	    }   
+    }
+}
+
+

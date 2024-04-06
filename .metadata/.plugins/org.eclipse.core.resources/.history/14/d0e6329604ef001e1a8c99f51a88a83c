@@ -1,0 +1,10 @@
+package r12;
+
+public abstract class Vechicle {
+	abstract void move();
+	
+	abstract void setSpeed(int speed);
+	
+	abstract int getSpeed();
+
+}

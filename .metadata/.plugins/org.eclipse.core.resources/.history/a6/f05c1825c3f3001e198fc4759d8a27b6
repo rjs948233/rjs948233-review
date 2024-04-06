@@ -1,0 +1,28 @@
+package list;
+
+import java.util.ArrayList;
+
+public class ArryListTest2 {
+
+	public static void main(String[] args) {
+		ArrayList al=new ArrayList();
+		
+		al.add(3);
+		al.add(5.5);
+		al.add("7");
+		al.add('a');
+		al.add("String");
+		System.out.println(al);
+		System.out.println(al.get(1));
+		System.out.println(al.get(4));
+     ArrayList<Character> al1=new ArrayList<Character>();
+     
+     for(int i = 0;i< 20;i++) {		
+	    	al1.add((char)(97+i));
+      }
+
+     for (int data : al1) {
+    	 System.out.println(data);
+     }
+}
+}

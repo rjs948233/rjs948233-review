@@ -1,0 +1,32 @@
+package list;
+//
+import java.util.ArrayList;
+
+public class ArrayList4 {
+//	 static ArrayList<Integer> list=new ArrayList<Integer>();
+
+	 static void printList(int index, ArrayList<Integer> list) {
+	    
+       	while(!list.isEmpty() || index >=20) {
+            System.out.println(index);
+            System.out.println(list.get(index));
+            index += 1;
+            if(index >=20) {
+               System.out.println ("프로그램을 종료합니다");
+            }
+       	}
+	}
+	
+	public static void main(String[] args) {
+	   ArrayList<Integer> list=new ArrayList<Integer>(); 
+				
+       	for(int i=0;i<20;i++) {
+       			list.add(i*10);
+       	}
+       	
+           	printList(20,list); 
+	}   
+	    
+}
+
+

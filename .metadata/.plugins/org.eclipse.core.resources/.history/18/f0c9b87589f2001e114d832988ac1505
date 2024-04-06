@@ -1,0 +1,14 @@
+package classTest02;
+
+public class MavelMain1 {
+
+	public static void main(String[] args) {
+		MarvelHero1 ironMan= new MarvelHero1("아이언맨","에너지빔",20);
+		System.out.println(ironMan);
+		
+		MarvelHero1 hulk= new MarvelHero1("아이언맨","에너지빔",20);
+		System.out.println(hulk);	
+
+	}
+
+}

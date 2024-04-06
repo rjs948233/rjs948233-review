@@ -1,0 +1,27 @@
+package whileTest;
+
+import java.util.Scanner;
+
+public class WhileTest03 {
+
+	public static void main(String[] args) {
+		// 입력클래스 import
+		// 숫자저장할변수
+		// do{
+		//    숫자입력메시지 출력
+		//    변수 nextInt사용
+		//    변수 nextInt사용
+        //    조건문(if
+		Scanner sc=new Scanner(System.in);
+		int number=0;
+		while(number <= 0) {
+			System.out.println("숫자입력:");
+			number = sc.nextInt();
+			if(number <0) {
+				System.out.println("양수가 아닙니다");
+			}
+		}
+		System.out.println(number+"양수가 입니다");
+	}
+
+}

@@ -1,0 +1,52 @@
+package employee;
+
+import java.util.HashMap;
+
+public class EmployeeMain {
+	public static void main(String[] args) {
+//		1. 회사의 사원들의 정보를 HashMap에 저장한다
+//		HashMap의 Key는 사원의 ID(String)
+//		Value는 이름, 나이, 부서로 설정
+//		조건1. 새로운 사원정보를 추가
+//		001, 짱구, 5, "영업부"
+//		002, 철수, 5, "개발부"
+//		003, 유리, 5, "사업부"
+//		조건2. 특정 ID의 사원 정보를 조회
+//		조건3. 모든 사원의 정보를 출력
+//		entrySet 메소드사용
+//		조건4. 특정 ID의 사원 정보를 삭제
+//		조건5. 모든 사원 정보를 삭제
+//		clear 메소드 사용
+		
+		//1. 회사의 사원들의 정보를 HashMap에 저장한다
+		// name해쉬맵에 이름저장
+		 HashMap<String, String> name = new HashMap<>();
+		 name.put("001", "짱구");
+		 name.put("002", "철수");
+		 name.put("003", "유리");
+		// System.out.println(name); 
+		// age해쉬맵에 나이저장 
+		 HashMap<String, Integer> age = new HashMap<>();
+		 age.put("001", 5);
+		 age.put("002", 5);
+		 age.put("003", 5);
+		 //System.out.println(age);  
+		// dept해쉬맵에 나이저장 
+		 HashMap<String, String> dept = new HashMap<>();
+		 dept.put("001", "영업부");
+		 dept.put("002", "개발부");
+		 dept.put("003", "사업부"); 
+		 //System.out.println(dept);  
+		 
+//			조건2. 특정 ID의 사원 정보를 조회
+		 System.out.print(name.get("001")+", "+age.get("001")+", "+dept.get("001"));
+		 System.out.print(name.get("002")+", "+age.get("002")+", "+dept.get("002"));
+		 System.out.print(name.get("003")+", "+age.get("003")+", "+dept.get("003"));
+		 
+		
+		// HashMap의 Key는 사원의 ID(String)
+//			Value는 이름, 나이, 부서로 설정
+		
+	}
+}
+
