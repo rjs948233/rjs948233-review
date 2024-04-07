@@ -1,0 +1,17 @@
+package method;
+
+public class MethodStudy001 {
+	 //메소드 정의
+	//1) 매개변수 x, 리턴값 x 메소드 정의
+	// 이름을 출력하는 기능
+	void printNum() {
+		System.out.println("1) 매개변수 x, 리턴값 x 메소드 정의");
+		System.out.println("이름 : 류정식");
+	}
+	public static void main(String[] args) {
+		MethodStudy001 mst001=new MethodStudy001();
+		
+		mst001.printNum();
+		
+	}
+}

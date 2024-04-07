@@ -23,6 +23,11 @@ public class HashMapStudy1 {
 		
 		System.out.println();
 		
+		System.out.println(map.get("A"));
+		System.out.println(map.get("B"));
+		System.out.println(map.size());
+		System.out.println(map.values());
+		
 	}
 	
 }

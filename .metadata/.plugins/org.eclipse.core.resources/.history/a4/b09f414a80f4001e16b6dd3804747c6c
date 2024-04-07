@@ -1,0 +1,33 @@
+package classTest;
+
+public class StudentStudy001Main {
+	public static void main(String[] args) {
+		StudentStudy001 st001=new StudentStudy001();
+	    System.out.println(st001);
+	    StudentStudy001 st002=new StudentStudy001();
+	    System.out.println(st002);
+	    
+	    st001.name = "류정식";
+	    st001.math = 90;
+	    st001.eng = 95;
+	    st001.kor = 96;
+	    
+	    System.out.println(st001.name);
+	    System.out.println(st001.math);
+	    System.out.println(st001.eng);
+	    System.out.println(st001.kor);
+	  
+	    st002.name = "김영선";
+	    st002.math = 91;
+	    st002.eng = 96;
+	    st002.kor = 97;
+	    
+	    System.out.println(st002.name);
+	    System.out.println(st002.math);
+	    System.out.println(st002.eng);
+	    System.out.println(st002.kor);
+	    st001.toString();
+	    
+ 
+   }
+}

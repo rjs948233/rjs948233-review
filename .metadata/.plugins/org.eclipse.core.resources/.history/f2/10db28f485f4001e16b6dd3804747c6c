@@ -1,0 +1,14 @@
+package construtorTest001;
+
+class A{
+	void method() {
+		System.out.println(this);
+	}
+}
+public class ClassTest001 {
+	public static void main(String[] args) {
+		A a=new A();
+		System.out.println(a);
+		a.method();
+	}
+}

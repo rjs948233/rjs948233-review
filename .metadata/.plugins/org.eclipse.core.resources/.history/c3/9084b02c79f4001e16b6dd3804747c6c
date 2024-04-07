@@ -1,0 +1,7 @@
+package method;
+
+public class MetodStudy01 {
+	public static void main(String[] args) {
+		
+	}
+}

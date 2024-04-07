@@ -4,7 +4,7 @@ public class CastingTest {
 	public static void main(String[] args) {
 		//객체화 작업(인스턴스화)
 		Person p1 = new Person("짱구", 5, "유치원생");
-		Student p2 = new Student("김영선", 20, "대학생", "코리아학교");
+		Person p2 = new Student("김영선", 20, "대학생", "코리아학교");
 		Employee p3 = new Employee("홍길동", 40, "개발자", "코리아회사");
 		
 		//메소드 오버라이딩된 것으로 호출됨을 확인

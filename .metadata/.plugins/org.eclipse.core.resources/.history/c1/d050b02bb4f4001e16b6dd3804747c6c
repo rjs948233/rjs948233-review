@@ -1,0 +1,11 @@
+package castingTest;
+
+public class TypeTest01 {
+	public static void main(String[] args) {
+		Parents p=new Parents();
+		Child01 c = new Child01();
+		
+		System.out.println(p);
+		System.out.println(c);
+	}
+}

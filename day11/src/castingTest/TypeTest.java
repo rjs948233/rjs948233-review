@@ -27,8 +27,8 @@ public class TypeTest {
 		
 		//업캐스팅된 pp 객체를 다운 캐스팅
 		Child cc = (Child)pp;
-		System.out.println(c instanceof Parents);
-		System.out.println(c instanceof Child);
+		System.out.println(cc instanceof Parents);
+		System.out.println(cc instanceof Child);
 	
 	
 	

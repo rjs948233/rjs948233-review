@@ -1,0 +1,40 @@
+package review1;
+
+import java.util.ArrayList;
+
+import review.UserVO;
+
+public class UserService {
+//  UserService 클래스를 선언한다.
+//  - 회원정보를 저장할 List를 private으로 선언한다.
+//  - 아이디 중복검사 메소드 정의
+//  - 회원가입 메소드 정의
+//  - 로그인 메소드 정의
+   
+
+	// 필드
+	// 모든 회원정보를 저장하는 리스트(private ArrayList)
+    //  - 회원정보를 저장할 List를 private으로 선언한다. 
+	private ArrayList<UserVO> userList = new ArrayList<>();
+	
+	//생성자
+	
+	 // UserVO 객체 생성
+    // 필드는 private이지만 생성자를 통해서 값을 초기화할 수 있으므로 세터를 사용하지 않는다
+
+	
+    //  - 아이디 중복검사 메소드 정의
+    void checkId(String id) {
+    	fot(UserVO user:userLIst){
+    		
+    	}
+    }
+	void join(UserVO user,int id) {
+		  if (user.getId().equals(id) ) {
+			  System.out.println("중복가입 불가합니다");
+		  }else {
+			  user.a
+		  }
+	      userList.contains(userList);
+     }
+}

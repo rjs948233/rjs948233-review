@@ -1,4 +1,4 @@
-package castingTest2;
+ package castingTest2;
 
 public class Employee extends Person {
 	// 필드

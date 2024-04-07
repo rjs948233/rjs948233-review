@@ -10,6 +10,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="F:\web_1300_rjs\java\workspace"/>
 			<item value="F:\web_1300_rjs\workspace"/>
 			<item value="C:\Users\user\Documents\카카오톡 받은 파일\day01.zip"/>
 		</list>

@@ -1,0 +1,11 @@
+package inheritanceTest;
+
+public class Tv02inMain {
+	public static void main(String[] args) {
+		Tv01 t01=new Tv01();
+		Tv02in t02in = new Tv02in();
+		
+		System.out.println(t01);
+		System.out.println(t02in);
+	}
+}

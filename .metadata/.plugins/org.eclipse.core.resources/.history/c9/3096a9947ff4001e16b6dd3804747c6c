@@ -1,0 +1,9 @@
+package classTest;
+
+public class StudentStudy001Main {
+	public static void main(String[] args) {
+		StudentStudy001 st001=new StudentStudy001();
+	    System.out.println(st001);
+ 
+   }
+}

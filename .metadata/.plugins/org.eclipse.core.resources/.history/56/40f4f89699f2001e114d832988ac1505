@@ -1,9 +1,0 @@
-package methodOverloding;
-
-
-public class ValueTest2 {
-public static void main(String[] args) {
-	valueTest vy= new valueTest();
-	System.out.println(vy);
-}
-}

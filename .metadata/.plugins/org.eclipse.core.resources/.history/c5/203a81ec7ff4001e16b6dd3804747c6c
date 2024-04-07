@@ -1,0 +1,19 @@
+package classTest;
+
+public class StudentStudy001Main {
+	public static void main(String[] args) {
+		StudentStudy001 st001=new StudentStudy001();
+	    System.out.println(st001);
+	    StudentStudy001 st002=new StudentStudy001();
+	    System.out.println(st002);
+	    
+	    st001.name = "류정식";
+	    st001.math = 90;
+	    st001.eng = 95;
+	    st001.kor = 96;
+	    
+	    st001.toString();
+	    
+ 
+   }
+}

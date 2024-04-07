@@ -1,9 +1,0 @@
-package task04;
-
-public class task04Main {
-	public static void main(String[] args) throws Ts04Exception {
-		Task04 ts4 = new Task04();
-		
-		ts4.trans(15);	
-	}
-}
